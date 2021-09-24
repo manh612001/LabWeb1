@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.form{
+    width: 900px;
+    
+    
+    margin: 100px auto;
+}
+.text3{
+    display: block;
+    width: 900px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.text{
+    padding: 5px 15px;
+    border: 2px solid #b2bec3;
+    border-radius: 5px;
+}
+.text1{
+    width: 450px;
+}
+.text2{
+    margin-left: 15px;
+    width: 357px;
+}
+.content{
+    border: 2px solid #b2bec3;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 300px;
+    width: 900px;
+    padding:0 15px;
+}
+
+.form span{
+    float: right;
+    margin-top: 15px;
+}
+.form button{
+    margin-top: 15px;
+    padding:10px 15px;
+    background: #74b9ff;
+    color: white;
+    border:1px solid;
+    border-radius: 5px;
+}

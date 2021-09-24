@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: monospace;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.content-left{
+    height: 220px;
+    width: 150px;
+    border: 2px solid #b2bec3;
+    float: left;
+}
+.Text{
+    text-align: center;
+    font-size: 20px;
+    color: #0984e3;
+}
+.content-right{
+    float: left;
+    width: 500px;
+    height: 220px;
+    
+    margin-left:20px ;
+    position: relative;
+}
+.content-right h2{
+    text-transform: uppercase;
+}
+.content-right p{
+    margin-top: 20px;
+}
+.content-right button{
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    border: 2px solid #3f3f3f;
+    border-radius: 5px;
+    background: none;
+}
