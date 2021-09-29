@@ -6,6 +6,8 @@
 }
 .content-left img {
   height: 600px;
+  position: relative;
+  left: -30px;
 }
 .content-left {
   width: 385px;
@@ -24,7 +26,7 @@
 }
 
 .content-right i {
-  color: #324f81;
+  color: #385185;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -40,7 +42,7 @@
 }
 .Face span{
   margin-left: 5px;
-  color: #324f81;
+  color: #385185;
 }
 .text1 {
   margin-bottom: 5px;
@@ -59,7 +61,7 @@
 }
 .form button {
   width: 100%;
-  background: #b3defe;
+  background: #b2dffc;
   color: white;
   padding: 6px 0;
   border: none;
@@ -82,7 +84,7 @@
 }
 
 .bottom span {
-  color: #00cec9;
+  color: #0095f6;
   font-weight: 600;
 }
 .top {
@@ -120,7 +122,7 @@ a {
   bottom: 11px;
   left: 0;
 }
-.form span::after {
+.box span::after {
   content: "";
   height: 2px;
   background: #bdc3c7;
@@ -153,12 +155,12 @@ a {
   height: 430px;
   width: 242px;
   position: absolute;
-  right: 28px;
+  right: 30px;
   top: 88px;
 
   background-size: cover;
   animation-name: bg;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 .logo{
@@ -170,24 +172,21 @@ a {
   height: 50px;
 }
 @keyframes bg {
-  0% {
-    background: url(./img/anh.png);
-    background-size: contain;
+  100% ,0%{
+    background: url(./img/anh1.jpg);
+    
   }
   25% {
-    background: url(./img/anh1.png);
-    background-size: contain;
+    background: url(./img/anh2.jpg);
+    
   }
   50% {
-    background: url(./img/anh2.png);
-    background-size: contain;
+    background: url(./img/anh3.jpg);
+   
   }
   75% {
-    background: url(./img/anh3.png);
-    background-size: contain;
+    background: url(./img/anh4.jpg);
+    
   }
-  100% {
-    background: url(./img/anh4.png);
-    background-size: contain;
-  }
+  
 }

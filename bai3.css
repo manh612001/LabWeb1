@@ -16,9 +16,9 @@
     box-sizing: border-box;
 }
 .text{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: 2px solid #b2bec3;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .text1{
     width: 450px;
@@ -29,11 +29,11 @@
 }
 .content{
     border: 2px solid #b2bec3;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 15px;
     height: 300px;
     width: 900px;
-    padding-left: 15px;
+    padding: 10px 0 0 15px;
     box-sizing: border-box;
 }
 
